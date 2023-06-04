@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* General Properties */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    color: white !important;
+}
+
+/* Custom Properties */
+
+.bg-darkgray {
+    background-color: #202124 !important;
+}
+
+.border-darkgray {
+    border-color: #5F6368 !important;
+}
+
+.btn-custom {
+    color: white !important;
+    border: none !important;
+    background-color: transparent !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9AA0A6 !important;
+
+}
+
+/* Navigation  */
+
+.navbar {
+    height: 4em; 
+    z-index: 1 !important;
+}
+
+.nav-gradient {
+    position: absolute;
+    height: 0.5em;
+    top: 4em;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
+}
+
+.side-nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 4em;
+}
+
+.side-nav-collapse {
+    position: absolute !important;
+    left: 4em;
+    top: 0;
+}
+
+.offcanvas {
+    position: fixed !important;
+    width: 15em !important;
+}
+
+/* Notes  */
+
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.form-control {
+    border: none !important;
+}
+
+/* N */
